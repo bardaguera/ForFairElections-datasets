@@ -38,4 +38,14 @@
 | | &nbsp; 14. Manufacturing | `4_manufacturing` |
 | | &nbsp; 15. Freelance | `9_freelance` |
 | | &nbsp; Empty | `0_unemployed` |
-
+| | | |
+| | | **q7_wealth_code** |
+| | &nbsp; ...-5 | `1_below_5` |
+| | &nbsp; 5-15 | `2_below_15` |
+| | &nbsp; 15-30 | `3_below_30` |
+| | &nbsp; 30-50 | `4_below_50` |
+| | &nbsp; 50-80 | `5_below_80` |
+| | &nbsp; 80-110 | `6_below_110` |
+| | &nbsp; 110-… | `7_over_110` |
+| | | |
+| | | |
