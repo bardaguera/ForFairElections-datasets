@@ -1,3 +1,7 @@
-# ForFairElections-datasets
+# For Fair Elections: Sociological Portrait of the Protesters
 
 A datasets with the results of opinion pool conducted during a protests "For Fair Elections". Moscow 2011-2012.
+
+* Sakharova street:
+** Sakharova_street.xls -- dataset
+** Sakharova_street.md -- description
