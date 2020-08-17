@@ -1,23 +1,23 @@
 | QNo  | Question | ColName / Code |
 | ------------- | ------------- |------------- |
-| q1 | Age, gender | q1_age_src, q1_sex_src |
+| q1 | Age, gender | **q1_age_src**, **q1_sex_src** |
 | | | |
-| q2 | Area of employment (indicate your profession, if possible) | q2_job_code |
+| q2 | Area of employment (indicate your profession, if possible) | **q2_job_code** |
 | | &nbsp; Student | `4_student` |
 | | &nbsp; University student | `4_student` |
 | | &nbsp; Public sector employee | `2_public_sector` |
-| | &nbsp; Commercial organisation employee | `1_private_sector |
+| | &nbsp; Commercial organisation employee | `1_private_sector` |
 | | &nbsp; Freelance | `3_freelance` |
-| | &nbsp; Not working (including housekeepers) |  5_unemployed |
-| | &nbsp; Retiree | 5_retired |
+| | &nbsp; Not working (including housekeepers) |  `5_unemployed` |
+| | &nbsp; Retiree | `5_retired` |
 | | | |
-| q3 | Education | q3_education_code |
-| | Lower secondary | secondary_school |
-| | Secondary | secondary_school |
-| | Technical school | vocational_school |
-| | Undergraduate | graduate |
-| | Graduate | graduate |
-| | PhD | phd |
+| q3 | Education | **q3_education_code** |
+| | Lower secondary | `secondary_school` |
+| | Secondary | `secondary_school` |
+| | Technical school | `vocational_school` |
+| | Undergraduate | `graduate` |
+| | Graduate | `graduate` |
+| | PhD | `phd` |
 | | | |
 | q4 | How do you rate the current well-being of your family? | q4_wealth_src |
 | | We have a stable and high income. |  |
@@ -33,31 +33,29 @@
 | | Supporter of the current state of affairs | `loyal` |
 | | I do not have clear political preferences | `undecided` |
 | | | |
-| q6 | Do you consider yourself as a member of any political organisation? | q6_party_code |
+| q6 | Do you consider yourself as a member of any political organisation? | **q6_party_code** |
 | | Yes | `party` |
 | | No | `non_party` |
 | | | |
-| q7 | How often do you take part in political activity? | q7_protester_career_code |
+| q7 | How often do you take part in political activity? | **q7_protester_career_code** |
 | | I have never participated in any until today. | newcomer |
-| | For the first time I was on Bolotnaya on December 10 (or on some of the rallies of those days). |  |
-| | I have participated in political activity before the elections. |  |
+| | For the first time I was on Bolotnaya on December 10 (or on some of the rallies of those days). | bolotnaya_debutant |
+| | I have participated in political activity before the elections. | veteran |
+| |  |  |
+| q8| Have you participated in community initiatives: volunteering, blue buckets, Khimki forest, fire fighting, observing elections ... (underline as appropriate, open-ended question) | **q8_activities_code** |
+| |  | boolean |
+| |  |  |
+| q9 | What demands put forward on the rallies do you support (up to three)? | **q9_claims_[1..6]**, **q9_claims_cnt_answers**,	**q9_claims_cnt_polar_answers**, **q9_claims_cnt_moderate_answers**  |
+| | Ensuring fair elections from now on, but recognising the outcome of the past elections | q9_claims_1 |
+| | Re-election | q9_claims_2|
+| | Changing the election law: expanding the number of parties | q9_claims_3|
+| | The resignation of Putin and Medvedev | q9_claims_4|
+| | A thorough investigation of violations, punishment of violators | q9_claims_5|
+| | “Putin to jail!” (28 This slogan was not part of the demands, but we introduced it to fix the declared radicalism of the respondents) | q9_claims_6|
+
 | |  |  |
 | |  |  |
 | |  |  |
-| |  |  |
-
-№ 7. 
-
-№ 8. Have you participated in community initiatives: volunteering, blue buckets, Khimki forest, fire fighting, observing elections ... (underline as appropriate, open-ended question)
-
-№ 9. What demands put forward on the rallies do you support (up to three)?
-Ensuring fair elections from now on, but recognising the outcome of the past elections
-Re-election
-Changing the election law: expanding the number of parties
-The resignation of Putin and Medvedev
-A thorough investigation of violations, punishment of violators
-“Putin to jail!” (28 This slogan was not part of the demands, but we introduced it to fix the declared radicalism of the respondents)
-
 № 10. Which of the following statements do you agree with:
 I support the stage orators.
 Representatives of my interests should gain access to power.
