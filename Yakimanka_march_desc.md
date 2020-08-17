@@ -48,4 +48,11 @@
 | | &nbsp; 80-110 | `6_below_110` |
 | | &nbsp; 110-… | `7_over_110` |
 | | | |
-| | | |
+| | | **q8_overwork_code** |
+| | &nbsp; 1. I work hard and often work long hours | `1_workaholic` |
+| | &nbsp; 2. Sometimes I have to work overtime. | `2_busy_bee` |
+| | &nbsp; 3. I have a 40-hour week. | `3_40hours` |
+| | &nbsp; 4. I am able to leave work early or do not work the whole week. | `4_flexible` |
+| | &nbsp; 5. I am a freelancer. | `5_freelancer` |
+| | &nbsp; 6. I do not work. | `6_doesnt_work` |
+
