@@ -59,7 +59,7 @@
 | | &nbsp; 1. For the first time. | `1_newcomer` |
 | | &nbsp; 2. I was on Bolotnaya Square and/or Academician Sakharov Avenue. | `2_bolotnaya_debutant` |
 | | &nbsp; 3. I participated in the rallies of 1991. | `3_1991_debutant` |
-| | &nbsp; 4. I have participated in some other activities before. | `4_experienced` |
+| | &nbsp; 4. I have participated in some other activities before. | `4_veteran` |
 | | &nbsp; 5. I am a political activist and often participate in such activities. | `5_activist` |
 | | | |
 | | Additional column: Some respondents wanted to emphasize their participation in the 90s strikes. | **q9_3flag_src** |
