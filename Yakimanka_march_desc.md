@@ -64,7 +64,7 @@
 | | | |
 | | Additional column: Some respondents wanted to emphasize their participation in the 90s strikes. | **q9_3flag_src** |
 | | | |
-| q10 | | **q10_Rfproblems_src** |
+| q10 | Which problems in contemporary Russia do you consider the most significant (strictly up to 4): | **q10_Rfproblems_src** |
 | | &nbsp; Boolean: 1. Corruption in the highest government levels | `q10_1` |
 | | &nbsp; Boolean: 2. Corruption in ‘field office’ | `q10_2` |
 | | &nbsp; Boolean: 3. Destructive reforms in the field of health and education | `q10_3` |
@@ -80,7 +80,7 @@
 | | | |
 | | Additional column: q10_3 &q10_4 &q10_5 | **q10_private_code** |
 | | | |
-| q11 | | **q11_putin_src** |
+| q11 | What do you think about Putin? | **q11_putin_src** |
 | | &nbsp; Boolean: 1. I am quite loyal to V.V. Putin, the problem does not refer to him. | `q11_1_loyal` |
 | | &nbsp; Boolean: 2. I admit that many people appreciate his charisma, but I do not like him. | `q11_2_calm` |
 | | &nbsp; Boolean: 3. I suppose that he is not a leader for most citizens. | `q11_3_suspicious` |
