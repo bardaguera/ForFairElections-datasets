@@ -3,23 +3,22 @@
 | q1 | Age | **q1_age_src** |
 | | | |
 | q2 |  | **q2_gender_code** |
-| | &nbsp; Student | `4_student` |
 | | | |
 | | | **q3_education_code** |
-| | | 1_secondary_school |
-| | | 2_student |
-| | | 3_vocational_school |
-| | | 4_graduate |
-| | | 5_phd |
+| | 1. Secondary | 1_secondary_school |
+| | 2. Undergraduate | 2_student |
+| | 3. Technical school | 3_vocational_school |
+| | 4. Graduate | 4_graduate |
+| | 5. PhD | 5_phd |
 | | | |
 | | |**q4_profession_practising_code** |
-| | | 1_practising |
-| | | 2_not_practising |
+| | Yes | 1_practising |
+| | No | 2_not_practising |
 | | | |
-| | | **q5_conscription_code** |
-| | | 1_yes |
-| | | 2_no |
-| | | 3_not_subject |
+| | Military service | **q5_conscription_code** |
+| | 1. Yes | 1_yes |
+| | 2. No | 2_no |
+| | 3. Ineligible for military duty | 3_not_subject |
 | | | |
 | | | **q6_job_code** |
 | | &nbsp; 1. Information technology | `1_it` |
