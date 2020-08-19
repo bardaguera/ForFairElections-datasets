@@ -55,4 +55,26 @@
 | | &nbsp; 4. I am able to leave work early or do not work the whole week. | `4_flexible` |
 | | &nbsp; 5. I am a freelancer. | `5_freelancer` |
 | | &nbsp; 6. I do not work. | `6_doesnt_work` |
+| | | |
+| | | **q9_protester_career_code** |
+| | &nbsp; 1. For the first time. | `1_newcomer` |
+| | &nbsp; 2. I was on Bolotnaya Square and/or Academician Sakharov Avenue. | `2_bolotnaya_debutant` |
+| | &nbsp; 3. I participated in the rallies of 1991. | `3_1991_debutant` |
+| | &nbsp; 4. I have participated in some other activities before. | `4_experienced` |
+| | &nbsp; 5. I am a political activist and often participate in such activities. | `5_activist` |
+| | | |
+| | Additional column: Some respondents wanted to emphasize their participation in the 90s strikes. | **q9_3flag_src** |
+| | | |
+| | | **q10_Rfproblems_src** |
+| | &nbsp; 1. Corruption in the highest government levels | `q10_1` |
+| | &nbsp; 2. Corruption in ‘field office’ | `q10_2` |
+| | &nbsp; 3. Destructive reforms in the field of health and education | `q10_3` |
+| | &nbsp; 4. Lack of developed manufacturing (the problem of commodity-dependent economy) | `q10_4` |
+| | &nbsp; 5. Degradation of the population (alcohol abuse, drug addiction, juvenile delinquency) | `q10_5` |
+| | &nbsp; 6. Constraints to the political elite renewal (stagnation) | `q10_6` |
+| | &nbsp; 7. Clannishness (ongoing links between the state apparatus and business) | `q10_7` |
+| | &nbsp; 8. The considerable loss of the Russian Federation global prestige. | `q10_8` |
+| | | |
+| | Additional column: Check column. Rsps had to pick strictly up to 4 answers | **q10_sum** |
+| | | |
 
