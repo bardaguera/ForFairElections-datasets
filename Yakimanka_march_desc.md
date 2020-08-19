@@ -66,15 +66,26 @@
 | | Additional column: Some respondents wanted to emphasize their participation in the 90s strikes. | **q9_3flag_src** |
 | | | |
 | | | **q10_Rfproblems_src** |
-| | &nbsp; 1. Corruption in the highest government levels | `q10_1` |
-| | &nbsp; 2. Corruption in ‘field office’ | `q10_2` |
-| | &nbsp; 3. Destructive reforms in the field of health and education | `q10_3` |
-| | &nbsp; 4. Lack of developed manufacturing (the problem of commodity-dependent economy) | `q10_4` |
-| | &nbsp; 5. Degradation of the population (alcohol abuse, drug addiction, juvenile delinquency) | `q10_5` |
-| | &nbsp; 6. Constraints to the political elite renewal (stagnation) | `q10_6` |
-| | &nbsp; 7. Clannishness (ongoing links between the state apparatus and business) | `q10_7` |
-| | &nbsp; 8. The considerable loss of the Russian Federation global prestige. | `q10_8` |
+| | &nbsp; Boolean: 1. Corruption in the highest government levels | `q10_1` |
+| | &nbsp; Boolean: 2. Corruption in ‘field office’ | `q10_2` |
+| | &nbsp; Boolean: 3. Destructive reforms in the field of health and education | `q10_3` |
+| | &nbsp; Boolean: 4. Lack of developed manufacturing (the problem of commodity-dependent economy) | `q10_4` |
+| | &nbsp; Boolean: 5. Degradation of the population (alcohol abuse, drug addiction, juvenile delinquency) | `q10_5` |
+| | &nbsp; Boolean: 6. Constraints to the political elite renewal (stagnation) | `q10_6` |
+| | &nbsp; Boolean: 7. Clannishness (ongoing links between the state apparatus and business) | `q10_7` |
+| | &nbsp; Boolean: 8. The considerable loss of the Russian Federation global prestige. | `q10_8` |
 | | | |
 | | Additional column: Check column. Rsps had to pick strictly up to 4 answers | **q10_sum** |
 | | | |
-
+| | Additional column: q10_1 &q10_2 &q10_6 &q10_7 | **q10_public_code** |
+| | | |
+| | Additional column: q10_3 &q10_4 &q10_5 | **q10_private_code** |
+| | | |
+| | | **q11_putin_src** |
+| | &nbsp; Boolean: 1. I am quite loyal to V.V. Putin, the problem does not refer to him. | `q11_1_loyal` |
+| | &nbsp; Boolean: 2. I admit that many people appreciate his charisma, but I do not like him. | `q11_2_calm` |
+| | &nbsp; Boolean: 3. I suppose that he is not a leader for most citizens. | `q11_3_suspicious` |
+| | &nbsp; Boolean: 4. I believe that all the guilt is his. | `q11_4_accusing` |
+| | &nbsp; Boolean: 5. I am not interested in him, he is not the problem. | `q11_5_indifferent` |
+| | | |
+| | Additional column: Sum column. | **q11_sum** |
