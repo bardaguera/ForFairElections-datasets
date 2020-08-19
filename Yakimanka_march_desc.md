@@ -2,25 +2,25 @@
 | ------------- | ------------- |------------- |
 | q1 | Age | **q1_age_src** |
 | | | |
-| q2 |  | **q2_gender_code** |
+| q2 | Gender | **q2_gender_code** |
 | | | |
-| | | **q3_education_code** |
+| q3 | Education | **q3_education_code** |
 | | 1. Secondary | 1_secondary_school |
 | | 2. Undergraduate | 2_student |
 | | 3. Technical school | 3_vocational_school |
 | | 4. Graduate | 4_graduate |
 | | 5. PhD | 5_phd |
 | | | |
-| | |**q4_profession_practising_code** |
+| q4 | Do you practise your profession? |**q4_profession_practising_code** |
 | | Yes | 1_practising |
 | | No | 2_not_practising |
 | | | |
-| | Military service | **q5_conscription_code** |
+| q5 | Military service | **q5_conscription_code** |
 | | 1. Yes | 1_yes |
 | | 2. No | 2_no |
 | | 3. Ineligible for military duty | 3_not_subject |
 | | | |
-| | | **q6_job_code** |
+| q6 | Occupation | **q6_job_code** |
 | | &nbsp; 1. Information technology | `1_it` |
 | | &nbsp; 2. Accounting and marketing | `4_white_collar` |
 | | &nbsp; 3. Top management | `2_top_management` |
@@ -38,7 +38,7 @@
 | | &nbsp; 15. Freelance | `9_freelance` |
 | | &nbsp; Empty | `0_unemployed` |
 | | | |
-| | | **q7_wealth_code** |
+| q7 | What is your income (in thousands of rubles)? | **q7_wealth_code** |
 | | &nbsp; ...-5 | `1_below_5` |
 | | &nbsp; 5-15 | `2_below_15` |
 | | &nbsp; 15-30 | `3_below_30` |
@@ -47,7 +47,7 @@
 | | &nbsp; 80-110 | `6_below_110` |
 | | &nbsp; 110-… | `7_over_110` |
 | | | |
-| | | **q8_overwork_code** |
+| q8 | Do you work overtime? | **q8_overwork_code** |
 | | &nbsp; 1. I work hard and often work long hours | `1_workaholic` |
 | | &nbsp; 2. Sometimes I have to work overtime. | `2_busy_bee` |
 | | &nbsp; 3. I have a 40-hour week. | `3_40hours` |
@@ -55,7 +55,7 @@
 | | &nbsp; 5. I am a freelancer. | `5_freelancer` |
 | | &nbsp; 6. I do not work. | `6_doesnt_work` |
 | | | |
-| | | **q9_protester_career_code** |
+| q9 | How often do you participate in political activity? | **q9_protester_career_code** |
 | | &nbsp; 1. For the first time. | `1_newcomer` |
 | | &nbsp; 2. I was on Bolotnaya Square and/or Academician Sakharov Avenue. | `2_bolotnaya_debutant` |
 | | &nbsp; 3. I participated in the rallies of 1991. | `3_1991_debutant` |
@@ -64,7 +64,7 @@
 | | | |
 | | Additional column: Some respondents wanted to emphasize their participation in the 90s strikes. | **q9_3flag_src** |
 | | | |
-| | | **q10_Rfproblems_src** |
+| q10 | | **q10_Rfproblems_src** |
 | | &nbsp; Boolean: 1. Corruption in the highest government levels | `q10_1` |
 | | &nbsp; Boolean: 2. Corruption in ‘field office’ | `q10_2` |
 | | &nbsp; Boolean: 3. Destructive reforms in the field of health and education | `q10_3` |
@@ -80,7 +80,7 @@
 | | | |
 | | Additional column: q10_3 &q10_4 &q10_5 | **q10_private_code** |
 | | | |
-| | | **q11_putin_src** |
+| q11 | | **q11_putin_src** |
 | | &nbsp; Boolean: 1. I am quite loyal to V.V. Putin, the problem does not refer to him. | `q11_1_loyal` |
 | | &nbsp; Boolean: 2. I admit that many people appreciate his charisma, but I do not like him. | `q11_2_calm` |
 | | &nbsp; Boolean: 3. I suppose that he is not a leader for most citizens. | `q11_3_suspicious` |
